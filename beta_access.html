@@ -17,7 +17,7 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="/static/login.css" rel="stylesheet">
+    <link href="./login.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,30 +26,18 @@
         <div class="cover-container">
             <div class="inner cover">
                 <h1 class="cover-heading">Welcome to Amplytica!</h1>
-                <p class="lead">Our cloud platform helps you analyze microbial communities at scale.</p>
+                <p class="lead">Analyzing microbial communities at scale.</p>
+                <p class="lead">Hi! Unfortunately, were finished the current round of beta testing.</p>
+                <p class="lead">Coming in 2016:</p>
+                <ul class="list_of_features">
+                    <li>Auto-scaling Architecture</li>
+                    <li>Open Reference Guided OTU Clustering</li>
+                    <li>Multi-sample Analysis</li>
+                    <li>Metadata Integration</li>
+                </ul>
                 <p class="lead"><a href="http://www.amplytica.io" class="btn btn-info">Learn More</a></p>
                 <p class="lead">or</p>
-
-                <div>
-                    <form class="form" id="beta_form" onsubmit="return false">
-                        <div class="form-group">
-                            <label for="beta_key">Please enter your beta key:</label><br>
-                            <input class="form-control" type="text" id="beta_key" size="32"><br>
-                        </div>
-
-                        <button type="submit" id="submit_btn" class="btn btn-block btn-social btn-google btn-lg disabled">
-                            <span class="fa fa-google"></span>
-                            Sign in with Google
-                        </button>
-
-                        <div class="form-group">
-                            <div id="error_display" class="invisible">
-                                <p>Hey! It Looks like you may have an invalid beta key.</p>
-                                <p>If you need a new one send us an email!</p>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                <p class="lead"><a href="mailto:sales@amplytica.io" class="btn btn-info">Request A Demo</a></p>
             </div>
         </div>
     </div>
@@ -59,7 +47,6 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script src="/static/beta_access.js"></script>
 
 </body>
 </html>
